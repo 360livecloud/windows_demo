@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="390,300" caption="0,0,0,32" mininfo="390,200" roundcorner="5,5">
+   <Font name="微软雅黑" id="0" size="14" bold="false" italic="false" />
+   <Include source="Common.xml" />
+   <VerticalLayout bordersize="1" bkcolor="#FFFFFFFF" bordercolor="#00A0A0A4">
+        <HorizontalLayout height="36" bkcolor="#FF60B7FF" bkcolor2="#FF4DA3FF">
+            <Label name="titlelb" text="360视频云" padding="4,4,4,4" textcolor="#00FFFFFF" font="0" align="left" valign="vcenter" endellipsis="true" />
+            <HorizontalLayout width="42" padding="0,8,8,0" align="right">
+                <Button name="closebtn" width="19" height="19" align="right" valign="vcenter" normalimage="file=&apos;frame_btn_close.png&apos; source=&apos;0,0,19,19&apos; &apos;" hotimage="file=&apos;frame_btn_close.png&apos; source=&apos;19,0,38,19&apos;" pushedimage="file=&apos;frame_btn_close.png&apos; source=&apos;38,0,57,19&apos;" disabledimage="file=&apos;frame_btn_close.png&apos; source=&apos;57,0,76,19&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <VerticalLayout padding="10,10,10,10">
+			<Label text="窗口：" width="100" height="30" align="left" valign="vcenter" />
+            <VerticalLayout bkcolor="#FF888888" >
+				<VerticalLayout name="list_wnd" vscrollbar="true" bkcolor="#FFFFFFFF" padding="1,1,1,1">
+                </VerticalLayout>
+            </VerticalLayout>
+        </VerticalLayout>
+        <HorizontalLayout height="42" align="center">
+            <Button name="btn_ok" text="确认" width="60" height="30" font="0" />
+            <Button name="btn_cancel" text="取消" width="60" height="30" padding="36,0,0,0" font="0" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
